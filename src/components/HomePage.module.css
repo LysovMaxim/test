@@ -1,0 +1,8 @@
+.homePage{
+    display: flex;
+}
+
+.homePage_container{
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,151 @@
+.screenPage {
+  width: 260px;
+  background-color: #121212;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 24px;
+}
+
+.screenPage_logo {
+  display: flex;
+  align-items: center;
+}
+
+.screenPage_logo_cotainer {
+  width: 32px;
+  height: 32px;
+  background-color: #1f1f1f;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 8px;
+}
+
+.screenPage_icon {
+  color: #fff;
+}
+
+.screenPage_title {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.64px;
+}
+
+.screenPage_boards {
+  color: rgba(255, 255, 255, 0.5);
+  /* font-family: Poppins; */
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.24px;
+  display: block;
+  margin-top: 64px;
+}
+
+.screenPage_board {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 14px;
+  padding-top: 14px;
+  margin-top: 8px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.screenPage_board_title {
+  color: #fff;
+  /* font-family: Poppins; */
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.28px;
+  width: 76px;
+}
+
+.screenPage_board_btn {
+  width: 40px;
+  height: 36px;
+  border-radius: 6px;
+  background: #bedbb0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+}
+
+.screenPage_board_icon {
+  width: 20px;
+  height: 20px;
+  color: #121212;
+}
+
+.screenPage_help {
+  width: 192px;
+  height: 252px;
+  background-color: #1f1f1f;
+  border-radius: 8px;
+  margin-top: 206px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.screenPage_help_title {
+  color: #fff;
+  /* font-family: Poppins; */
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.28px;
+  width: 172px;
+  height: 102px;
+}
+
+.screenPage_help_btn {
+  border: 0;
+  background-color: inherit;
+  color: #fff;
+  /* font-family: Poppins; */
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.24px;
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+
+.screenPage_help_icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+.screenPage_logout_btn {
+  color: #fff;
+  /* font-family: Poppins; */
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  border: 0;
+  background-color: inherit;
+  margin-top: 8px;
+}
+
+.screenPage_logout_icon{
+    width: 32px;
+    height: 32px;
+    color: #BEDBB0;
+    margin-right: 14px;
+}
