@@ -1,4 +1,28 @@
 .header {
-    background-color: #161616;
-    height: 68px;
+  background-color: #161616;
+  height: 68px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  
+}
+
+.header_theme_btn {
+  color: rgba(255, 255, 255, 0.8);
+  /* font-family: Poppins; */
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.28px;
+  padding: 0;
+  border: 0;
+  background-color: inherit;
+  display: flex;
+  align-items: center;
+
+}
+
+.screenPage_logout_icon{
+    margin-left: 8px;
 }
