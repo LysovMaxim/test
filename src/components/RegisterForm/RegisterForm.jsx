@@ -1,17 +1,17 @@
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const RegisterForm = () => {
   return (
-    <>
-      <NavLink to="/auth/register">Register</NavLink>
-      <NavLink to="/auth/login">Login</NavLink>
+    <div>
+      <Link to="/auth/register">Register</Link>
+      <Link to="/auth/login">Login</Link>
       <form>
         <input type="text" />
         <input type="text" />
         <input type="text" />
         <button type="submit"></button>
       </form>
-    </>
+    </div>
   );
 };
 
